@@ -102,7 +102,7 @@ void printIdDistributions(const T& iOldDistribution, const T& iNewDistribution)
 void printMoveRatio(int iOccurrences, int iMovesNeeded, int iDelta)
 {
     (iDelta >= 0) ? cout << "Adding " << iDelta : cout << "removing " << iDelta;
-    cout<< " buckets generates " << static_cast<double>(iMovesNeeded) / iOccurrences * 100 << " % of moves " << endl << endl;
+    cout << " buckets generates " << static_cast<double>(iMovesNeeded) / iOccurrences * 100 << " % of moves " << endl << endl;
 }
 
 template <typename Function>
