@@ -1,1 +1,2 @@
 # Jump-Consistent-Hashing-Evaluation
+Even distribution of data among servers is very important: another important aspect is to be able to add or remove servers without having to totally reorganize the data. This test aims to compare the number of moves needed when the number of servers changes in two different hashing schemes: one based on modulo arithmethic versus consistent hashing. Regarding consistent hashing, the algorithm used is the Jump Consistent Hashing presented in the paper "A Fast, Minimal Memory, Consistent Hash Algorithm" by Google.
